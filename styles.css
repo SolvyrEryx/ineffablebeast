@@ -284,9 +284,15 @@ body {
   z-index: 10;
   max-width: 1800px;
   margin: 0 auto;
-  min-height: 100vh;
+  height: 100vh; /* Fixed height for scroll */
+  overflow: hidden; /* Contain children */
   display: flex;
   flex-direction: column;
+}
+
+/* Force hidden cursor on all interactive elements */
+a, button, input, textarea, select, .clickable {
+  cursor: none !important;
 }
 
 @media (min-width: 768px) {
@@ -994,7 +1000,6 @@ body {
   flex-direction: column;
   height: 100%;
   cursor: none;
-  group: hover;
 }
 
 .game-image-container {

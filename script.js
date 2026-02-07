@@ -17,7 +17,7 @@ const GAMES = [
     playtime: "155h",
     status: "ACTIVE",
     color: "text-rose-200",
-    img: "https://images.unsplash.com/photo-1624138784181-dc7f5b75e804?q=80&w=2670&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2670&auto=format&fit=crop",
   },
   {
     id: "csgo",
